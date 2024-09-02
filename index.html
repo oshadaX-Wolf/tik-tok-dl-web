@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Downloader</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok Video Downloader</h1>
+        <form id="downloadForm">
+            <input type="text" id="videoUrl" placeholder="Enter TikTok URL" required>
+            <button type="submit">Download</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Download your video:</h2>
+            <a id="videoDownload" href="" target="_blank" download>Download Video</a>
+            <a id="audioDownload" href="" target="_blank" download>Download Audio</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
